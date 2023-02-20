@@ -15,18 +15,18 @@ switch(user){
         var password=prompt("enter the password?");
         if(userName=="ishu"&& password==12345){
             console.log("authentication success")
-            operation=prompt("enter what you want to do insert or remove ")
+            operation=prompt("enter what you want to do insert or remove ");
             switch(operation){
                 case "insert":
-                    console.log("insertion successful")
+                    console.log("insertion successful");
                     break
                 case "remove":
-                    console.log('deletion successful')
+                    console.log('deletion successful');
                     break
             }
-            break
         }
         else{
-            console.log("enter the correct credentials")
+            console.log("enter the correct credentials");
         }
+        break;
 }
