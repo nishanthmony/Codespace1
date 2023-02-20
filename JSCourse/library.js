@@ -9,6 +9,7 @@ switch(user){
         else{
             console.log("enter the correct credentials")
         }
+        break
     case "librarian":
         var userName=prompt("enter the username?");
         var password=prompt("enter the password?");
@@ -18,9 +19,12 @@ switch(user){
             switch(operation){
                 case "insert":
                     console.log("insertion successful")
+                    break
                 case "remove":
                     console.log('deletion successful')
+                    break
             }
+            break
         }
         else{
             console.log("enter the correct credentials")
