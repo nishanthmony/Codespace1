@@ -57,10 +57,28 @@ function getUserRole(name, role){
 }
 
 
-console.log(getUserRole("shady", "user"));
-var getRole = getUserRole("Ishu", "admin");
-console.log(getRole);
-
+// console.log(getUserRole("shady", "user"));
+// var getRole = getUserRole("Ishu", "admin");
+// console.log(getRole);
 
 //alternate ways to create a function with no change in outputs
 //var getUserRole = function (name, role){}
+
+
+
+//hoisting in context
+
+tip("15");
+function tip(a){
+    var bill = parseInt(a);
+    console.log(bill + 5);
+}
+
+tip("10");
+
+bigTip("85");
+
+var bigTip = function (a){
+    var bill = parseInt(a);
+    console.log(bill + 15);
+}
