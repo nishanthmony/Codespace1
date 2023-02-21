@@ -82,3 +82,8 @@ var bigTip = function (a){
     var bill = parseInt(a);
     console.log(bill + 15);
 }
+//above is the example for global context and scope chain
+
+//this keyword
+console.log(this); //run this in web console or in a new file
+//will show the global context
