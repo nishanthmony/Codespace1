@@ -64,7 +64,7 @@ function getUserRole(name, role){
 //alternate ways to create a function with no change in outputs
 //var getUserRole = function (name, role){}
 
-
+ 
 
 //hoisting in context
 
